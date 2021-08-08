@@ -11,12 +11,11 @@ rcParams['font.family'] = 'serif'
 
 ########## Variable declaration ##########
 
-path = r"F:\Dropbox (Sydney Uni)\PhD\Analysed Data\AFM\Asylum Force Processing\20190725 - Underwater TW PDMS CVD Tip\CVDTipUW07_summary_2021-03-14Nanobubble.csv"
+path = r"F:\Path_to_the\output_file.csv"
 
 DPI = 300
 
 figure_size = (6,2)
-
 
 ########## Functions ##########
 
