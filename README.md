@@ -1,4 +1,4 @@
-# AFM_Nanobubble_Mapping
+# AFM Nanobubble Mapping
 
 This repository contains all the code necessary to detect and map nanobubbles on lubricant-infused surfaces. All scripts were developed in the IDE Spyder and so are designed to be run in an environment where editing and running are easy. 
 
