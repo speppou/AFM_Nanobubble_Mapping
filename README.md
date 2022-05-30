@@ -2,7 +2,7 @@
 
 This repository contains all the code necessary to detect and map nanobubbles on lubricant-infused surfaces. All scripts were developed in the IDE Spyder and so are designed to be run in an environment where editing and running are easy. 
 
-The main script ForceMapAnalysisNanobubble.py has a header where the user can input the relevant information to run the script on their files. The required input information is: 
+The main script `ForceMapAnalysisNanobubble.py` has a header where the user can input the relevant information to run the script on their files. The required input information is: 
 * path to folder containing force curves from a force map in ASCII format (as output by Asylum software)
 * path to folder where you want the analysed data 
 * sensitivity of cantilever used
@@ -25,3 +25,7 @@ Processed data can be plotted using PlottingNanobubble.py. Point the script to a
 Also included are instructions to hack Asylum AFM software to automatically output multiple ARDF files to Ascii to speed up analysis.
 
 If you want to use an AFM other than an Asylum you can either get it to output a force map in the same format (LineXXXXPointXXXX.txt) or modify the functions 'LoadDataX()' and 'LoadDataY()' in ForceMapAnalysisNanobubble.py to work with the files outuput by your AFM software. 
+
+## Calibrated spring constant
+
+If you have calibrated the spring constant of your cantilever you can use the script `ForceMapAnalysisNanobubbleSC.py` to process your data and fit the gradient of the region detected as gas. 
